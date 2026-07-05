@@ -27,7 +27,7 @@ const Contact = () => {
                 <input type="text" placeholder="Last Name" className="w-full p-4 rounded-xl bg-slate-50 border border-slate-200 focus:border-blue-600 outline-none transition-all" />
               </div>
               <input type="email" placeholder="Your Email" className="w-full p-4 rounded-xl bg-slate-50 border border-slate-200 focus:border-blue-600 outline-none transition-all" />
-              <textarea placeholder="Your Message" rows="4" className="w-full p-4 rounded-xl bg-slate-50 border border-slate-200 focus:border-blue-600 outline-none transition-all"></textarea>
+              <textarea placeholder="Your Message"  className="w-full p-4 rounded-xl bg-slate-50 border border-slate-200 focus:border-blue-600 outline-none transition-all"></textarea>
               <button className="w-full flex items-center justify-center gap-2 bg-blue-600 text-white py-4 rounded-xl font-bold hover:bg-blue-700 transition-all active:scale-95">
                 Send Message <FiSend />
               </button>
