@@ -67,6 +67,7 @@ const Product = () => {
             >
               <div className="relative overflow-hidden rounded-2xl h-64 mb-4">
                 <img 
+                
                   src={product.image} 
                   alt={product.name} 
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
